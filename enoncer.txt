@@ -1,0 +1,25 @@
+Voici un exercice ludique qui combine plusieurs concepts JavaScript :
+
+Exercice : Crée un générateur de liste interactive
+Objectif : Créer une liste dynamique d'animaux qui permet à l'utilisateur de :
+
+Ajouter des animaux à la liste.
+Trier la liste alphabétiquement.
+Filtrer les animaux par une lettre donnée.
+Afficher dynamiquement les animaux dans une zone dédiée.
+Étapes :
+
+Crée une interface avec :
+
+Un champ texte pour entrer le nom d'un animal.
+Un bouton "Ajouter".
+Un bouton "Trier".
+Un champ texte pour filtrer les animaux par leur première lettre.
+Une zone d'affichage pour la liste des animaux.
+En JavaScript :
+
+Utilise un tableau pour stocker les animaux ajoutés.
+Utilise addEventListener pour gérer les clics sur les boutons.
+Utilise filter pour filtrer les animaux par la lettre choisie.
+Utilise sort pour trier la liste.
+Utilise appendChild pour ajouter chaque animal dans la zone d'affichage sous forme d'éléments HTML (par exemple, des <li> dans une <ul>).
