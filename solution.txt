@@ -1,11 +1,13 @@
-//ajout du titre en JS pour m'exercer et voir si JS était bien relié
+HTML:
+<div>
+  <input id="animal-input" type="text" placeholder="Ajouter un animal">
+  <button id="add-button">Ajouter</button>
+  <button id="sort-button">Trier</button>
+  <input id="filter-input" type="text" placeholder="Filtrer par lettre">
+  <ul id="animal-list"></ul>
+</div>
 
-const sectionAnimal = document.querySelector(".titre");
-const titreAnimal = document.createElement("h1");
-titreAnimal.innerText = "Les animaux"
-sectionAnimal.appendChild(titreAnimal);
-
-//exercice
+JavaScript:
 const animals = [];
 
 const animalInput = document.getElementById('animal-input');
@@ -51,3 +53,16 @@ filterInput.addEventListener('input', () => {
   );
   displayAnimals(filteredAnimals);
 });
+
+
+Explication :
+1- Boucles : La fonction displayAnimals utilise une boucle forEach pour parcourir et afficher les animaux.
+2- Écoutes d'événements : addEventListener est utilisé pour réagir aux clics et aux entrées de texte.
+3- Sort : La méthode sort trie le tableau d'animaux.
+4- Filter : La méthode filter permet de filtrer les animaux en fonction de leur première lettre.
+5- AppendChild : Chaque animal est ajouté à la liste d'affichage grâce à appendChild.
+A
+méliorations possibles :
+- Ajouter un système de suppression d'animaux de la liste.
+- Mettre en place une vérification pour éviter les doublons.
+Cet exercice te permettra de manipuler plusieurs concepts essentiels en JavaScript de manière ludique et interactive.
