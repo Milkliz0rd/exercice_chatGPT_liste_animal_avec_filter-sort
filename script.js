@@ -16,16 +16,15 @@ sectionAnimal.appendChild(titreAnimal);
 
   // Vide la liste avant d'afficher les éléments
 
-  
   // Parcourt le tableau et ajoute chaque animal à la liste
 
   // création des élément li
-  
+
   // contenu des éléments li  
 
-  // ajout des éléments li à la list  
+  // ajout des éléments li à la list
 
-
+//--------------------------------------------------------------------------------
 // Ajouter un animal via un listener 
 
   // on créé une variable pour la valeur de notre input
@@ -37,15 +36,16 @@ sectionAnimal.appendChild(titreAnimal);
     // Réinitialise le champ texte
 
     // Affiche la liste actualisée
-  
+ 
+//---------------------------------------------------------------------------------
 
 // Trier les animaux avec un listener
 
-  // on utilise la fonction pour trier (par défaut ce sera par ordre alphabétique)
+  // on utilise la fonction pour trier notre liste (par défaut ce sera par ordre alphabétique)
 
   // Affiche la liste triée
-
-
+  
+//---------------------------------------------------------------------------------
 // Filtrer les animaux par la première lettre avec un listener
 
   // on créé une variable qui sera la valeur de notre filterInput
@@ -53,3 +53,8 @@ sectionAnimal.appendChild(titreAnimal);
   // on créé une variable qui filtrera notre liste par rapport à la valeur de notre filterInput (pour la première lettre la fonction est: startsWith)
 
   // on affiche la liste trié
+
+
+//----------------------------------------------------------------------------------
+//on affiche la liste original
+
